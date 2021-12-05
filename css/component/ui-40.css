@@ -1,0 +1,53 @@
+h1{
+  margin-top: 10px;
+}
+
+p{
+  margin-top: 10px;
+}
+
+.card_ecommerce {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 350px;
+  margin: auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.lesprix{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.prix {
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: line-through;
+  margin-right: 15px;
+}
+
+.newprix{
+  color: red;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+
+.card_ecommerce button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.card_ecommerce button:hover {
+  opacity: 0.7;
+}

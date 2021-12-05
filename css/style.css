@@ -1,0 +1,182 @@
+@import url(component/ui-10.css);
+@import url(component/ui-20.css);
+@import url(component/ui-30.css);
+@import url(component/ui-end.css);
+@import url(component/ui-40.css);
+
+
+body{
+  background-color: unset;
+}
+
+.mabalise{
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  color:black;
+  display: flex;
+  margin-left: 200px;
+  font-family: Arial, sans-serif;
+ }
+
+.header_container {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 70px;
+}
+
+.header_smallcontainer {
+  display: flex;
+}
+
+.imagelogo{
+  margin-left: -200px;
+}
+
+.tailleimage{
+  width: 120px;
+}
+
+.miseenpage{
+  border: solid black;
+  border-radius: 15%;
+  margin: 37px;
+  padding:  13px;
+}
+
+.centerbutton{
+  text-align: center;
+  margin-top: 50px;
+  font-family: Arial, sans-serif;
+}
+
+.Promotion{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+}
+
+.img_produit {
+  width: 320px;
+  margin-top:  20px;
+  margin-bottom: 20px;
+}
+
+.titre_produit {
+  padding: 5px;
+}
+
+.avis{
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px;
+  text-decoration: underline;
+  border-top: dashed black 3px;
+  font-family: cabin;
+}
+
+.textereseaux{
+  font-size: 30px;
+  color: brown;
+  margin-left: 67px;
+  font-family: Arial, sans-serif;
+}
+
+
+@media (max-device-width: 540px){
+  
+  .banner h1{
+    font-size: 56px;
+  }
+
+  .banner p{
+    font-size: 40px;
+  }
+
+  .btn{
+    margin-bottom: 30px;
+  }
+
+  .cards_multiple{
+    display: block;
+    padding-right: 150px;
+    padding-left: 150px;
+    padding-top: 40px;
+  } 
+
+  .card_category_multiple{
+    margin-bottom: 50px;
+    border-radius: 5%;
+    height: 250px;
+    font-size: 45px;
+  }
+
+  .mabalise{
+    font-size: 40px;
+  }
+
+  .header_container {
+    display: flex;
+  }
+
+  .header_smallcontainer {
+  display: block;
+  }
+
+  .tailleimage{
+    width: 210px;
+    margin-top: 20px;
+  }
+
+  .card_ecommerce{
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    width: 500px;
+  }
+
+  .prix{
+    font-size: 35px;
+  }
+
+  .newprix{
+    font-size: 35px;
+  }
+
+  p{
+    font-size: 35px;
+    padding: 10px;
+  }
+
+ .Promotion{
+  display: block;
+ }
+
+ .card_ecommerce button{
+  font-size: 35px;
+ }
+
+ .img_produit{
+  width: 450px;
+ }
+
+ .titre_produit{
+  padding: 10px;
+  font-size: 35px;
+ }
+
+ .titre_competences{
+  font-size: 13px;
+ }
+
+.textereseaux{
+  font-size: 50px;
+}
+
+.footer_links a{
+  font-size: 50px;
+}
+
+}
+
+
